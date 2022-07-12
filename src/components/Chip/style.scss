@@ -1,0 +1,16 @@
+.Chip {
+  width: fit-content;
+  padding: spacing("sm");
+  border-width: 2px;
+  border-style: solid;
+  border-color: $color-light;
+  border-radius: $size-border-radius;
+  background: $color-dark;
+  color: $color-light;
+  cursor: pointer;
+
+  &--active {
+    background: $color-light;
+    color: $color-dark;
+  }
+}
