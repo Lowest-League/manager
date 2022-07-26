@@ -15,7 +15,7 @@ const Topbar = (props: Types.Props): JSX.Element => {
   return (
     <div className="Topbar" id={id} data-testid={id}>
       <div className="Topbar__content">
-        <Title id={`${id}-title`} content="react-setup" classname="Topbar__title" size="sm" />
+        <Title id={`${id}-title`} title="react-setup" classname="Topbar__title" size="sm" />
         <div className="Topbar__chips">
           <span onClick={() => navigate('https://github.com/cl4pper/react-setup')}><Chip id={`${id}-ts`} label="TS" active={true} /></span>
           <span onClick={() => navigate()}><Chip id={`${id}-ts`} label="JS" active={false} /></span>
