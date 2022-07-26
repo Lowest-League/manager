@@ -25,7 +25,7 @@ describe('Chip', (): void => {
 		const props: Types.Props = {
 			id: 'jest',
 			label: 'A label',
-      active: true,
+			active: true,
 		};
 
 		const { getByTestId } = render(wrapper(props));
