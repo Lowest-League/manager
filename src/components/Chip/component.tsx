@@ -11,7 +11,7 @@ const Chip = (props: Types.Props): JSX.Element => {
 
   return (
     <div id={id} data-testid={id} className={classsnames('Chip', {'Chip--active': active})}>
-      <Text id={`${id}-label`} content={label} bold={active} />
+      <Text id={`${id}-label`} text={label} bold={active} />
     </div>
   )
 }

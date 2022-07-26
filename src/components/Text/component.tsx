@@ -5,7 +5,7 @@ import * as Types from './types';
 import './style.scss';
 
 const Text = (props: Types.Props): JSX.Element => {
-	const { id, classname, content, size, italic, bold } = props;
+	const { id, classname, text, size, italic, bold } = props;
 	return (
 		<p
 			id={id}
@@ -18,7 +18,7 @@ const Text = (props: Types.Props): JSX.Element => {
 				'Text--italic': italic,
 			})}
 		>
-			{content}
+			{text}
 		</p>
 	);
 };

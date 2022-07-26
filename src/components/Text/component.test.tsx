@@ -12,7 +12,7 @@ describe('Text', (): void => {
 	it('should render', (): void => {
 		const props: Types.Props = {
 			id: 'jest',
-			content: 'Text Jest.',
+			text: 'Text Jest.',
 		};
 
 		const { getByTestId } = render(wrapper(props));
@@ -24,7 +24,7 @@ describe('Text', (): void => {
 	it('should render small', (): void => {
 		const props: Types.Props = {
 			id: 'jest',
-			content: 'Text Jest.',
+			text: 'Text Jest.',
 			size: 'sm',
 		};
 
@@ -37,7 +37,7 @@ describe('Text', (): void => {
 	it('should render large', (): void => {
 		const props: Types.Props = {
 			id: 'jest',
-			content: 'Text Jest.',
+			text: 'Text Jest.',
 			size: 'lg',
 		};
 
@@ -50,7 +50,7 @@ describe('Text', (): void => {
 	it('should render bold', (): void => {
 		const props: Types.Props = {
 			id: 'jest',
-			content: 'Text Jest.',
+			text: 'Text Jest.',
 			bold: true,
 		};
 
@@ -63,7 +63,7 @@ describe('Text', (): void => {
 	it('should render italic', (): void => {
 		const props: Types.Props = {
 			id: 'jest',
-			content: 'Text Jest.',
+			text: 'Text Jest.',
 			italic: true,
 		};
 

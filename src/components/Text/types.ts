@@ -1,8 +1,8 @@
 export interface Props {
-	id: string;
-	classname?: string;
-	content: string;
-	size?: 'sm' | 'md' | 'lg';
-	bold?: boolean;
-	italic?: boolean;
+	id: string,
+	text: string,
+	size?: 'sm' | 'md' | 'lg',
+	bold?: boolean,
+	italic?: boolean,
+	classname?: string,
 }
