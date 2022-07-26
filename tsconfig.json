@@ -14,6 +14,7 @@
       "@styles": ["src/styles/global.scss"],
       "@components": ["src/components/index.ts"],
       "@containers": ["src/containers/index.ts"],
+      "@langs": ["src/langs/index.ts"],
     },
   },
   "include": ["src"]
