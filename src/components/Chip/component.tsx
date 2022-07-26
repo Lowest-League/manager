@@ -7,13 +7,13 @@ import * as Types from './types';
 import './style.scss';
 
 const Chip = (props: Types.Props): JSX.Element => {
-  const { id, label, active } = props;
+	const { id, label, active } = props;
 
-  return (
-    <div id={id} data-testid={id} className={classsnames('Chip', {'Chip--active': active})}>
-      <Text id={`${id}-label`} text={label} bold={active} />
-    </div>
-  )
-}
+	return (
+		<div id={id} data-testid={id} className={classsnames('Chip', { 'Chip--active': active })}>
+			<Text id={`${id}-label`} text={label} bold={active} />
+		</div>
+	);
+};
 
 export default Chip;

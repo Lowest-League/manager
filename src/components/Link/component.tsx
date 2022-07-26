@@ -13,7 +13,12 @@ const Link = (props: Types.Props): JSX.Element => {
 	}
 
 	return (
-		<span id={id} data-testid={id} className={classnames('Link', {'Link--empty': !href })} onClick={() => navigate()}>
+		<span
+			id={id}
+			data-testid={id}
+			className={classnames('Link', { 'Link--empty': !href })}
+			onClick={() => navigate()}
+		>
 			<Text id={`${id}-link-label`} text={label} />
 		</span>
 	);

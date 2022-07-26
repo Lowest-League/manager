@@ -1,5 +1,5 @@
 export interface Props {
-  id: string;
-  label: string;
-  active?: boolean;
+	id: string;
+	label: string;
+	active?: boolean;
 }
